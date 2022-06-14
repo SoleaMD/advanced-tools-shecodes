@@ -1,0 +1,141 @@
+:root {
+  --button-color: #646fd4;
+  --links-color: #5463ff;
+  --title-color: #051367;
+  --box-shadow: 4px 7px #051367;
+  --main-border: 2px solid #051367;
+}
+
+body {
+  background-color: #eef0fd;
+}
+h1,
+h2 {
+  font-weight: 700;
+  margin: 0;
+  color: var(--title-color);
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  opacity: 0.7;
+  margin: 0;
+  color: #001b91;
+}
+
+p {
+  background-color: #dbdffd;
+  color: #242f9b;
+  flex-direction: column;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  box-shadow: var(--box-shadow);
+  border: var(--main-border);
+}
+
+img {
+  background-color: #9ea7ff;
+  padding: 10px;
+  border-radius: 4px;
+  max-width: 100%;
+  height: auto;
+  border: var(--main-border);
+}
+
+.greetings {
+  padding-top: 100px !important;
+}
+
+.contact {
+  padding-top: 60px !important;
+}
+
+.active {
+  font-weight: bold !important;
+}
+
+.bg-blue {
+  background-color: #001b91;
+}
+
+.bg-alt-blue {
+  background-color: #dbdffd;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.navigation-links {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.app-links {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-link,
+.about-link,
+.weather-app-link,
+.music-app-link {
+  color: white;
+  text-decoration: none;
+  padding: 20px 15px;
+  margin: 20px;
+  border-radius: 4px;
+  box-shadow: var(--box-shadow);
+  background-color: var(--button-color);
+  border: var(--main-border);
+}
+
+.contact-link:hover,
+.about-link:hover,
+.weather-app-link:hover,
+.music-app-link:hover {
+  color: white !important;
+  font-weight: bold;
+}
+
+.homepage-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px !important;
+  color: var(--links-color);
+}
+
+.homepage-link:hover {
+  font-weight: bold;
+  color: var(--links-color) !important;
+}
+
+.email {
+  text-decoration: none;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  color: var(--links-color);
+}
+
+.email:hover {
+  text-decoration: underline;
+  color: var(--links-color) !important;
+}
