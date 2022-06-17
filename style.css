@@ -54,7 +54,8 @@ img {
   border: var(--main-border);
 }
 
-.greetings {
+.greetings,
+.about-heading {
   padding-top: 100px !important;
 }
 
