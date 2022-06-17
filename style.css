@@ -47,7 +47,7 @@ p {
 
 img {
   background-color: #9ea7ff;
-  padding: 10px;
+  padding: 8px;
   border-radius: 4px;
   max-width: 100%;
   height: auto;
@@ -141,7 +141,7 @@ img {
   color: var(--links-color) !important;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 48px;
   }
@@ -152,15 +152,19 @@ img {
     font-size: 20px;
   }
   p {
-    font-size: 16px;
+    font-size: 14px;
+  }
+  img {
+    padding: 4px;
   }
   .contact-link,
   .about-link {
-    margin-bottom: -20px;
+    margin-bottom: -25px;
   }
   .weather-app-link,
   .music-app-link {
     margin: 0 20px;
+    padding: 10px 15px;
   }
   .email {
     font-size: 22px;
